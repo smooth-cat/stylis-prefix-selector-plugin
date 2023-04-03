@@ -1,0 +1,35 @@
+.cmvxpZ {
+  background: black; /*|*/
+}
+.cmvxpZ .good,
+.cmvxpZ .sss {
+  color: white; /*|*/
+}
+.cmvxpZ .ok {
+  color: red; /*|*/
+}
+.cmvxpZ .bad-boy {
+  font-size: 12px; /*|*/
+}
+@-webkit-keyframes aa {
+  0% {
+    background: white;
+  }
+  100% {
+    background: red;
+  } /*|*/
+}
+@keyframes aa {
+  0% {
+    background: white;
+  }
+  100% {
+    background: red;
+  } /*|*/
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}

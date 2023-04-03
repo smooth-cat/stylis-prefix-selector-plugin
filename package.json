@@ -1,0 +1,38 @@
+{
+  "name": "stylis-prefix-selector-plugin",
+  "version": "1.0.19",
+  "description": "stylis 前缀选择器添加插件",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "pub": "npm publish  --access=public",
+    "pb": "node ./scripts/publish.js"
+  },
+  "keywords": [
+    "stylis-prefix-selector-plugin",
+    "prefix-selector",
+    "stylis",
+    "css",
+    "scope",
+    "selector",
+    "plugin"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smooth-cat/stylis-prefix-selector-plugin.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smooth-cat/stylis-prefix-selector-plugin/issues"
+  },
+  "homepage": "https://github.com/smooth-cat/stylis-prefix-selector-plugin#readme",
+  "devDependencies": {
+    "@types/node": "^18.15.10",
+    "ts-node": "^10.9.1",
+    "typescript": "^4"
+  }
+}

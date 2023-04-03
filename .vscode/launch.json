@@ -1,0 +1,20 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ts-node Debugger",
+      "type": "node",
+      "request": "launch",
+      "args": [
+        "${workspaceRoot}/src/limit-map.ts" // 入口文件
+      ],
+      "runtimeArgs": ["--nolazy", "-r", "ts-node/register"],
+      "sourceMaps": true,
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen",
+      "runtimeExecutable": "/Users/linjiajian/.nvm/versions/node/v14.19.3/bin/node" // where node
+    }
+  ]
+}
